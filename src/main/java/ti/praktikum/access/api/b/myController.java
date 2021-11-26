@@ -24,7 +24,7 @@ public class myController {
     })
     @ResponseBody
     public String showNama(){
-        return "Saya Siapa ?";
+        return "Saya Siapa ?!!";
     }
     
     student mhs = new student();
@@ -36,5 +36,5 @@ public class myController {
     public ArrayList<String> showNamaAll(){        
         return mhs.setData();
     }
-    
+
 }
